@@ -7,10 +7,13 @@ import {
   Newsletter,
   Footer,
 } from "../components";
+import styled from "styled-components";
+
+const Container = styled.div``;
 
 const Home = () => {
   return (
-    <div>
+    <Container>
       <Announcement />
       <Navbar />
       <Slider />
@@ -18,7 +21,7 @@ const Home = () => {
       <Products />
       <Newsletter />
       <Footer />
-    </div>
+    </Container>
   );
 };
 
