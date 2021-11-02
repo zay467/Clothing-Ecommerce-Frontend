@@ -1,4 +1,4 @@
-import { Cart, Home, Login, Product, ProductList, Register } from "./pages";
+import { Home } from "./pages";
 
 function App() {
   return <Home />;
