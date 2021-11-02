@@ -1,7 +1,7 @@
-import { Cart, Login, Product, Register } from "./pages";
+import { Cart, Home, Login, Product, ProductList, Register } from "./pages";
 
 function App() {
-  return <Cart />;
+  return <Home />;
 }
 
 export default App;
